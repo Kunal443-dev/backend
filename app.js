@@ -18,6 +18,9 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("DB Connected"))
   .catch(err => console.log(err));
 
+  app.get("/", (req, res) => {
+  res.send("Finance Backend API is running ");
+});
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/transactions", transactionRoutes);
