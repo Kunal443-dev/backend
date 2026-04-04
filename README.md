@@ -1,6 +1,6 @@
 # Finance Backend API
 
-## 📌 Overview
+##  Overview
 
 This project is a backend system for a Finance Dashboard.
 It provides APIs for managing users, financial transactions, and dashboard analytics with role-based access control.
@@ -34,8 +34,7 @@ It provides APIs for managing users, financial transactions, and dashboard analy
 ### 1️ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/finance-backend.git
-cd finance-backend
+git clone https://github.com/Kunal443-dev/backend
 ```
 
 ### 2️ Install Dependencies
